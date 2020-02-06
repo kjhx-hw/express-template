@@ -1,0 +1,26 @@
+{
+  "name": "expressjs-template",
+  "version": "1.0.0",
+  "description": "Template for ExpressJS projects in COMP4310.",
+  "main": "lib/server.js",
+  "scripts": {
+    "start": "node .",
+    "start:watch": "nodemon",
+    "clean": "rm -rf ./sessions",
+    "nuke": "rm -rf ./node_modules"
+  },
+  "author": "kjhx",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^2.0.2"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "sessions/*"
+    ],
+    "verbose": "true"
+  }
+}
