@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="theme-color" content="#000">
-    <title>404: NOT_FOUND</title>
+    <title>{{ code }}: {{ status }}</title>
     <style>
         html {
             font-size: 62.5%;
@@ -127,9 +127,9 @@
 <body>
     <div class="container">
         <main>
-            <p class="devinfo-container"><span class="error-code"><strong>404</strong>: NOT_FOUND</span>
-                <span class="devinfo-line">Code: <code>RESOURCE_NOT_FOUND</code></span>
-                <span class="devinfo-line">ID: <code>WILL_REPLACE_WITH_A_TEMPLATE_SOON</code></span></p>
+            <p class="devinfo-container"><span class="error-code"><strong>{{ code }}</strong>: NOT_FOUND</span>
+                <span class="devinfo-line">Code: <code>{{ status }}</code></span>
+                <span class="devinfo-line">ID: <code>{{ message }}</code></span></p>
         </main>
     </div>
 </body>
