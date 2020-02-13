@@ -13,6 +13,7 @@
 │   ├── test/                   # test cases
 │   ├── config.js               # project configuration
 │   └── server.js               # entry point
+├── sass/                       # sass source files
 ├── sessions/                   # saved session files
 ├── static/                     # all static files
 │   ├── css/
