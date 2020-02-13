@@ -1,0 +1,43 @@
+$sans: -apple-system, BlinkMacSystemFont, "Helvetica", "Helvetica Neue", "Roboto", "Oxygen", "Ubuntu", "Segoe UI", "Cantarell", sans-serif;
+$mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+
+$light: 300;
+$normal: 400;
+$semibold: 600;
+$bold: 700;
+$black: 900;
+
+$f1: 4rem;
+$f2: 2.25rem;
+$f3: 1.5rem;
+$f4: 1.25rem;
+$f5: 1rem;
+$f6: .875rem;
+
+h1 {
+    margin: 30px 0 15px;
+    font-size: $f1;
+    font-weight: $black;
+    line-height: 40pt;
+    letter-spacing: -0.5pt;
+}
+
+h2 {
+    margin: 20pt 0 10pt;
+    font-size: $f2;
+    font-weight: $bold;
+    line-height: 26pt;
+}
+
+h3 {
+    margin: 12pt 0;
+    font-size: $f3;
+    font-weight: $bold;
+    line-height: 22pt;
+}
+
+p {
+    margin: 15pt 0;
+    font-size: $f3;
+    line-height: 18pt;
+}

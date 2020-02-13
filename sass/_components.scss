@@ -1,0 +1,112 @@
+a, a:visited {
+  color: $ternary;
+  text-decoration: none;
+  transition: color .15s ease-in;
+
+  &:hover {
+    color: lighten($ternary, 9);
+  }
+}
+
+abbr[title] {
+  text-decoration: none;
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+mark {
+  background-color: adjust_hue(saturate(lighten($primary, 50), 91), 55);
+  border-radius: .1rem;
+  padding: .1rem;
+}
+
+blockquote {
+  margin-left: 0;
+  padding-left: 2rem;
+  border-left: .4rem solid $background-secondary;
+}
+
+code {
+  padding: .2rem .5rem;
+  margin: 0 .2rem;
+  font-family: $mono;
+  background: $background-secondary;
+  border-radius: 4px;
+}
+
+pre code {
+  display: block;
+  white-space: pre-wrap;
+  font-size: $f5;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+
+  th, td {
+    padding: 1rem;
+    text-align: left;
+  }
+
+  td { border: 1px solid black; }
+}
+
+a.button, button, input[type="submit"], input[type="reset"], input[type="button"] {
+  display: inline-block;
+  height: 3rem;
+  line-height: 3rem;
+  padding: 0 1rem;
+  font-size: 1.1rem;
+  color: $primary;
+  text-align: center;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border: .1rem solid $primary;
+  border-radius: .2rem;
+  cursor: pointer;
+  transition: all .2s ease;
+
+  &:hover {
+    color: $primary;
+    background-color: $background-secondary;
+    border: .1rem solid $primary;
+  }
+ }
+
+button.primary {
+  color: invert($primary);
+  background-color: $primary;
+  border: .1rem solid $primary;
+
+  &:hover {
+    background-color: lighten($primary, 30);
+    border-color: $primary;
+  }
+}
+
+form {
+  > label {
+    display: block;
+    font-size: 1rem;
+  }
+}
+
+textarea, input[type=text], input[type=search], input[type=email], input[type=url], input[type=color], input[type=date], input[type=file], input[type=month], input[type=number], input[type=tel], input[type=password] {
+  -webkit-appearance: textfield;
+  min-height: 1.5rem;
+  padding: .4rem .4rem;
+  border: .1rem solid $secondary;
+  border-radius: .2rem;
+  margin-bottom: 2rem;
+  outline: none;
+  font-size: 1.4rem;
+  transition: all .2s ease;
+
+  &:focus { border-color: $primary; }
+}
+
+img { max-width: 100%; }
