@@ -5,7 +5,7 @@
   "main": "lib/server.js",
   "scripts": {
     "start": "node .",
-    "start:watch": "nodemon .",
+    "start:watch": "nodemon . -s",
     "clean": "rm -rf ./sessions"
   },
   "author": "kjhx",
