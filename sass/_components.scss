@@ -31,10 +31,10 @@ code {
   margin: 0 .2rem;
   font-family: $mono;
   background: $background-secondary;
-  border-radius: 4px;
 }
 
 pre code {
+  background-color: $background-secondary;
   display: block;
   white-space: pre-wrap;
   font-size: $f5;
