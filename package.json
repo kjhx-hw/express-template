@@ -1,11 +1,11 @@
 {
   "name": "express-template",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Template for ExpressJS projects in COMP4310.",
   "main": "lib/server.js",
   "scripts": {
     "start": "node .",
-    "start:watch": "nodemon",
+    "start:watch": "nodemon .",
     "clean": "rm -rf ./sessions"
   },
   "author": "kjhx",

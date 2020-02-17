@@ -1,0 +1,10 @@
+# humanstxt.org/
+
+# TEAM
+
+    Kyle Huggins
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5, JS
+    Node, Express, Handlebars
