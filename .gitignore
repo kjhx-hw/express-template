@@ -163,4 +163,4 @@ tags
 # End of https://www.gitignore.io/api/vim,node,macos
 
 sessions/
-static/css/
+lib/
