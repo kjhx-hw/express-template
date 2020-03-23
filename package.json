@@ -1,6 +1,6 @@
 {
   "name": "express-template",
-  "version": "1.2.0",
+  "version": "1.2.2",
   "description": "Template for ExpressJS projects in COMP4310.",
   "main": "lib/server.js",
   "scripts": {

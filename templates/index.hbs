@@ -5,25 +5,39 @@
     <main>
         <h2>COMP 4310-SP20</h2>
         <p>This repository serves as a template for the Express based projects done in my COMP 4310 course.</p>
+        <p>Links –</p>
+        <ul>
+            <li><a href="/feature_name">Sample feature (mounted at /feature_name)</a></li>
+            <li><a href="https://github.com/kjhx-hw/express-template" target="_blank">GitHub</a></li>
+        </ul>
         <p>The default file structure of this template is:</p>
         <pre><code>.
 ├── docs/
-│ └── README.md
-├── lib/                    # all JS code
-│ ├── app/
-│ │ ├── feature_name/       # related middleware functions
-│ │ │ └── routes.js         # configure / export router
-│ │ └── index.js            # app object configuration
-│ ├── model/                # data models & logic
-│ ├── test/                 # test cases
-│ ├── config.js             # project configuration
-│ └── server.js             # entry point
-├── sessions/               # saved session files
-├── static/                 # all static files
-│ ├── css/
-│ ├── img/
-│ └── js/
+│   └── README.md
+├── src/                        # all JS code
+│   ├── app/
+│   │   ├── feature_name/       # related middleware functions
+│   │   │   ├── controller.ts   # feature middleware
+│   │   │   └── routes.ts       # configure / export router
+│   │   └── index.ts            # app object configuration
+│   ├── model/                  # data models & logic
+│   ├── test/                   # test cases
+│   ├── config.ts               # project configuration
+│   └── server.ts               # entry point
+├── sass/                       # sass source files
+├── sessions/                   # saved session files
+├── static/                     # all static files
+│   ├── css/
+│   ├── img/
+│   └── js/
+├── templates/                  # Handlebars templates
+│   ├── feature_name/           # Templates for a specific feature
+│   ├── layouts/                # Layout definition
+│   │   └── main.hbs            # Default page template
+│   ├── error.hbs
+│   └── index.hbs
 ├── package-lock.json
-└── package.json</code></pre>
+├── package.json
+└── tsconfig.json               # TypeScript configuration</code></pre>
     </main>
 </div>

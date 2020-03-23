@@ -4,21 +4,29 @@
 .
 ├── docs/
 │   └── README.md
-├── lib/                        # all JS code
+├── src/                        # all JS code
 │   ├── app/
 │   │   ├── feature_name/       # related middleware functions
-│   │   │   └── routes.js       # configure / export router
-│   │   └── index.js            # app object configuration
+│   │   │   ├── controller.ts   # feature middleware
+│   │   │   └── routes.ts       # configure / export router
+│   │   └── index.ts            # app object configuration
 │   ├── model/                  # data models & logic
 │   ├── test/                   # test cases
-│   ├── config.js               # project configuration
-│   └── server.js               # entry point
+│   ├── config.ts               # project configuration
+│   └── server.ts               # entry point
 ├── sass/                       # sass source files
 ├── sessions/                   # saved session files
 ├── static/                     # all static files
 │   ├── css/
 │   ├── img/
 │   └── js/
+├── templates/                  # Handlebars templates
+│   ├── feature_name/           # Templates for a specific feature
+│   ├── layouts/                # Layout definition
+│   │   └── main.hbs            # Default page template
+│   ├── error.hbs
+│   └── index.hbs
 ├── package-lock.json
-└── package.json
+├── package.json
+└── tsconfig.json               # TypeScript configuration
 ```
