@@ -3,7 +3,6 @@ import morgan from 'morgan';
 // import expressSession from 'express-session';
 // import sessionFileStore from 'session-file-store';
 import expressHandlebars from 'express-handlebars';
-// import sass from 'node-sass-middleware';
 import * as config from '../config';
 
 import * as feature_name from './feature_name';
@@ -14,7 +13,6 @@ export const app = express();
 // app.use(expressSession({ ...config.sessionOptions, store: new FileStore() }));
 app.engine('hbs', expressHandlebars({ extname: '.hbs' }));
 app.set('views', process.cwd() + '/templates');
-// app.use('/css', sass({ src: config.sassDir, dest: config.sassOutput, debug: true, outputStyle: config.sassCompression }));
 app.use(morgan(config.logFormat));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
