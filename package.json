@@ -1,6 +1,6 @@
 {
   "name": "express-template",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "Template for ExpressJS projects in COMP4310.",
   "main": "lib/server.js",
   "scripts": {
@@ -15,15 +15,15 @@
   "author": "kjhx",
   "license": "MIT",
   "dependencies": {
-    "@types/express": "^4.17.3",
+    "@types/express": "^4.17.4",
     "@types/express-handlebars": "^3.1.0",
     "@types/express-session": "^1.17.0",
     "@types/morgan": "^1.9.0",
-    "@types/node": "^13.9.3",
+    "@types/node": "^13.9.8",
     "express": "^4.17.1",
     "express-handlebars": "^3.1.0",
     "express-session": "^1.17.0",
-    "morgan": "^1.9.1",
+    "morgan": "^1.10.0",
     "session-file-store": "^1.4.0",
     "tsc-fancy": "^1.1.2",
     "typescript": "^3.8.3"
